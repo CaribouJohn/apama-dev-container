@@ -21,9 +21,9 @@
 
 	"remoteEnv": {
 		"EPL_TESTING_SDK": "/tools/apama-eplapps-tools",
-		"CUMULOCITY_SERVER_URL": "https://apamayoav.latest.stage.c8y.io/",
-		"CUMULOCITY_USERNAME": "apamabld",
-		"CUMULOCITY_PASSWORD": "yoavyoavyoavyoav"
+		"CUMULOCITY_SERVER_URL": "https://myserver/",
+		"CUMULOCITY_USERNAME": "myuser",
+		"CUMULOCITY_PASSWORD": "mypassword"
 	},
 	
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
