@@ -19,11 +19,13 @@
 		"cariboujohn.pysys-vscode-extension"
 	],
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	//"forwardPorts": [
-	//	15903,
-	//],
-
+	"remoteEnv": {
+		"EPL_TESTING_SDK": "/tools/apama-eplapps-tools",
+		"CUMULOCITY_SERVER_URL": "https://apamayoav.latest.stage.c8y.io/",
+		"CUMULOCITY_USERNAME": "apamabld",
+		"CUMULOCITY_PASSWORD": "yoavyoavyoavyoav"
+	},
+	
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
 	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
 
